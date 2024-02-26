@@ -1,0 +1,56 @@
+/* Estilo para o contêiner da imagem */
+.image-container {
+    position: relative;
+    width: 700px; /* ou ajuste conforme necessário */
+}
+
+/* Estilo para a sobreposição de texto */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo para o título sobre a imagem */
+.image-title {
+    font-variant: 60px; /* ou ajuste conforme necessário */
+    font-weight: bold; 
+    text-align: center;
+    padding: 20px; /* Adiciona um pouco de espaçamento para melhor legibilidade */
+    
+}
+
+/* Estilo para a parte do texto que deve ser riscada */
+.strikethrough {
+    text-decoration: line-through;
+    text-transform:uppercase ;
+}
+
+.image-text {
+    font-variant: 16px;
+    letter-spacing: 7px; /* Ajuste conforme necessário */
+    word-spacing: 10px; /* Ajuste conforme necessário */
+    text-align: center; /* Centralizar o texto */
+    color: #000000; /* Cor do texto (branco) */
+}
+
+
+.title {
+    font-size: 36px; /* Tamanho maior */
+    font-weight: bold; /* Negrito */
+    text-transform: uppercase;
+    line-height: 500px; /* Altura da imagem para centralizar verticalmente */
+}
+
+.description {
+    font-size: 18px; /* Ajuste o tamanho conforme necessário */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    word-spacing: 3px; /* Espaçamento entre palavras */
+}
